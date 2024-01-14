@@ -13,16 +13,16 @@
         <div class="header-back">
             <h1 class="header-title font">Atte</h1>
         </div>
-        @yield('header')
     </header>
+
     <main>
         @yield('content')
     </main>
+    
     <footer>
         <div class="footer-back">
             <p class="footer-content font">Atte,inc.</p>
         </div>
-        @yield('footer')
     </footer>
 </body>
 </html>
